@@ -103,7 +103,7 @@ function showJob(id){
 }
 function cvDecisionForm(job){
  const status=requestForJob(state.data,job.id);
- const input=h('textarea',{'aria-label':'CV request details',placeholder:'Optional instructions; revisions need a short description.',maxLength:10000});
+ const input=h('textarea',{rows:3,'aria-label':'CV request details',placeholder:'Optional instructions; revisions need a short description.',maxLength:10000});
  const feedback=h('p',{class:'small-note',role:'status'},'Drafts remain in memory. Refresh or lock clears unsent requests.');
  const actions=[['prepare_cv','Prepare CV'],['request_revision','Request revision'],['skip','Skip role'],['reconsider','Reconsider role']];
  const controls=actions.map(([type,label])=>btn(label,()=>{
@@ -115,7 +115,7 @@ function cvDecisionForm(job){
   state.pending.push({id:crypto.randomUUID(),jobId:job.id,type,content:input.value.trim(),createdAt:new Date().toISOString(),actor:'user',targetResumeId:target?.id||null,targetResumeSha256:target?.sha256||null});
   input.value='';feedback.textContent='Not sent — draft saved in this tab only.';
  },'secondary small'));
- return h('section',{class:'detail-section'},h('h3',{},'CV preparation'),status&&h('p',{},badge(REQUEST_LABELS[status.status],status.status==='ready'?'green':'amber'),' ',REQUEST_RESULTS[status.result]),input,h('div',{class:'button-row'},controls),feedback,h('p',{class:'small-note'},MAILBOX_CONFIG.enabled?'Use Send to Dot after GitHub sign-in. Sent requests are processed during the next configured run.':'Authenticated sending is not configured yet. No request has been sent to Dot.'),h('div',{class:'button-row'},btn('Send to Dot',()=>sendToDot(feedback),'primary small','arrow'),btn('Private mailbox',showMailbox,'secondary small','briefcase'),btn('Download encrypted fallback',exportOutbox,'secondary small','down')));
+ return h('section',{class:'decision-form detail-section'},h('h3',{},'CV preparation'),h('p',{},'1. Add optional details and choose an action below. 2. Click Send to Dot to send your request.'),status&&h('p',{},badge(REQUEST_LABELS[status.status],status.status==='ready'?'green':'amber'),' ',REQUEST_RESULTS[status.result]),input,h('div',{class:'button-row'},controls),feedback,h('p',{class:'small-note'},MAILBOX_CONFIG.enabled?'Use Send to Dot after GitHub sign-in. Sent requests are processed during the next configured run.':'Authenticated sending is not configured yet. No request has been sent to Dot.'),h('div',{class:'button-row'},btn('Send to Dot',()=>sendToDot(feedback),'primary small','arrow'),btn('Private mailbox',showMailbox,'secondary small','briefcase'),btn('Download encrypted fallback',exportOutbox,'secondary small','down')));
 }
 function decisionForm(job){
  if(cvOnly())return cvDecisionForm(job);
@@ -127,7 +127,7 @@ function decisionForm(job){
 async function prepareBatch(){
  if(deliveryBatch)return deliveryBatch;
  if(deliveryPreparing)return deliveryPreparing;
- if(!state.pending.length)throw Error('Add a CV request first.');
+ if(!state.pending.length)throw Error('Choose Prepare CV, Request revision, Skip role or Reconsider role first, then click Send to Dot. Typing details alone does not add a request.');
  const snapshot=state.data,session=state.session;
  const box={schemaVersion:'1.0',type:'daybreak-decisions',id:crypto.randomUUID(),createdAt:new Date().toISOString(),baseRevision:snapshot.meta.revision,decisions:[...state.pending]};
  const task=(async()=>{
@@ -171,7 +171,7 @@ function mailboxPanel(){
 }
 async function showMailbox(){
  const snapshot=state.data,session=state.session;
- const content=h('div',{},mailboxPanel(),h('p',{role:'status'},'Private replies require the viewer passphrase.'));
+ const content=h('div',{},mailboxPanel(),h('p',{role:'status'},'Private mailbox is where you sign in and read Dot’s encrypted replies. It does not send text from the CV form. To send a request, choose an action there, then click Send to Dot. Enter your viewer passphrase below to read replies.'));
  const password=h('input',{type:'password','aria-label':'Private reply passphrase',autoComplete:'off'});
  const replies=h('div',{});
  content.append(password,btn('Read private replies',async()=>{
