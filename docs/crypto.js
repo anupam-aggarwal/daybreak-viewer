@@ -11,7 +11,7 @@ function validate(e, purpose='vault') {
 }
 const aad = p => utf8.encode(`daybreak:v1:${p}:PBKDF2-SHA256:600000:AES-256-GCM`);
 export async function unlock(password, envelope, purpose='vault') {
-  if(!['vault','reply'].includes(purpose))throw new Error('Unsupported encrypted purpose');
+  if(!['vault','reply','outbox'].includes(purpose))throw new Error('Unsupported encrypted purpose');
   if(!crypto.subtle) throw new Error('Use HTTPS or localhost for browser encryption.');
   validate(envelope,purpose);
   const material = await crypto.subtle.importKey('raw',utf8.encode(password),'PBKDF2',false,['deriveKey']);

@@ -23,6 +23,6 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - name: Deploy static encrypted dashboard
+      - name: Deploy source-only workspace
         id: deployment
         uses: actions/deploy-pages@v4

@@ -1,0 +1,18 @@
+{
+  "name": "daybreak-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Source-only Daybreak UI for an owner-authenticated private hosted workspace",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check docs/hosted-app.js && node --check docs/hosted-auth.js && node --check docs/hosted-store.js",
+    "build:auth": "esbuild tools/browser_client.js --bundle --format=esm --platform=browser --minify --legal-comments=linked --outfile=docs/vendor/supabase.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.117.2"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
