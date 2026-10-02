@@ -1,0 +1,3353 @@
+{
+  "schemaVersion": "1.0",
+  "meta": {
+    "demo": true,
+    "createdAt": "2026-10-02T08:18:00+05:30",
+    "updatedAt": "2026-10-02T08:18:00+05:30",
+    "revision": 14,
+    "processedUpdateIds": [],
+    "automationConfigured": false
+  },
+  "profile": {
+    "displayName": "Your workspace",
+    "headline": "Android \u00b7 Mobile AI \u00b7 Robotics",
+    "profileVersion": "demo-profile-v1"
+  },
+  "preferences": {
+    "timezone": "Asia/Kolkata",
+    "scheduledTime": "08:00",
+    "roleFamilies": [
+      "Android",
+      "Mobile AI",
+      "ML Engineering",
+      "GenAI / Agents",
+      "Robotics / VLA"
+    ],
+    "regions": [
+      "Bengaluru",
+      "Hyderabad",
+      "Delhi NCR",
+      "Pune",
+      "Chennai",
+      "Mumbai",
+      "Remote India"
+    ],
+    "minBaseInr": 5000000,
+    "minExperience": 4,
+    "maxExperience": 8,
+    "freshnessHours": 72,
+    "matchThreshold": 82,
+    "dailyLimit": 10,
+    "approvedForSubmission": false
+  },
+  "jobs": [
+    {
+      "id": "job-001",
+      "identity": {
+        "platformJobId": "DEMO-1000",
+        "requisitionId": "DEMO-1000",
+        "canonicalEmployer": "Northstar Labs",
+        "urls": [
+          "https://example.com/careers/DEMO-1000"
+        ]
+      },
+      "company": "Northstar Labs",
+      "title": "Senior Android Engineer",
+      "location": "Bengaluru \u00b7 Hybrid",
+      "family": "Android",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1000",
+      "applyUrl": "https://example.com/careers/DEMO-1000",
+      "discoveredAt": "2026-10-02T07:48:00+05:30",
+      "postedAt": "2026-10-01T14:13:00+05:30",
+      "matchScore": 97,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7000000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-10-02T08:13:00+05:30",
+        "reference": "DEMO-RECEIPT-001",
+        "resumeId": "resume-1",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "af0dc09fd3e34b42fdb45405dbf770db33ced12c2b3112d2ef34f78374b6b103",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Android & mobile systems",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-10-02T08:13:00+05:30",
+          "reference": "DEMO-RECEIPT-001",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-0-1",
+          "at": "2026-10-02T07:48:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-0-2",
+          "at": "2026-10-02T08:13:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-0",
+          "at": "2026-10-02T08:13:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-002",
+      "identity": {
+        "platformJobId": "DEMO-1001",
+        "requisitionId": "DEMO-1001",
+        "canonicalEmployer": "Orbit Systems",
+        "urls": [
+          "https://example.com/careers/DEMO-1001"
+        ]
+      },
+      "company": "Orbit Systems",
+      "title": "Lead Engineer, Mobile AI",
+      "location": "Remote India",
+      "family": "Mobile AI",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1001",
+      "applyUrl": "https://example.com/careers/DEMO-1001",
+      "discoveredAt": "2026-10-02T07:47:00+05:30",
+      "postedAt": "2026-10-01T14:12:00+05:30",
+      "matchScore": 94,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-10-02T08:12:00+05:30",
+        "reference": "DEMO-RECEIPT-002",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-10-02T08:12:00+05:30",
+          "reference": "DEMO-RECEIPT-002",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-1-1",
+          "at": "2026-10-02T07:47:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-1-2",
+          "at": "2026-10-02T08:12:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-1",
+          "at": "2026-10-02T08:12:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-003",
+      "identity": {
+        "platformJobId": "DEMO-1002",
+        "requisitionId": "DEMO-1002",
+        "canonicalEmployer": "Aster Robotics",
+        "urls": [
+          "https://example.com/careers/DEMO-1002"
+        ]
+      },
+      "company": "Aster Robotics",
+      "title": "Robotics Learning Engineer",
+      "location": "Hyderabad",
+      "family": "Robotics / VLA",
+      "platform": "LinkedIn",
+      "sourceUrl": "https://example.com/careers/DEMO-1002",
+      "applyUrl": "https://example.com/careers/DEMO-1002",
+      "discoveredAt": "2026-10-02T07:46:00+05:30",
+      "postedAt": "2026-10-01T14:11:00+05:30",
+      "matchScore": 91,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "LeRobot",
+        "VLA",
+        "Isaac Sim"
+      ],
+      "status": "needs_review",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-3",
+      "blockReason": "Platform automation is not enabled. Review this listing manually or use an authorized employer application route.",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-2-1",
+          "at": "2026-10-02T07:46:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-2-2",
+          "at": "2026-10-02T08:11:00+05:30",
+          "type": "needs_review",
+          "note": "Platform automation is not enabled. Review this listing manually or use an authorized employer application route."
+        }
+      ],
+      "attempts": []
+    },
+    {
+      "id": "job-004",
+      "identity": {
+        "platformJobId": "DEMO-1003",
+        "requisitionId": "DEMO-1003",
+        "canonicalEmployer": "Helio Mobile",
+        "urls": [
+          "https://example.com/careers/DEMO-1003"
+        ]
+      },
+      "company": "Helio Mobile",
+      "title": "Senior Kotlin Engineer",
+      "location": "Pune \u00b7 Hybrid",
+      "family": "Android",
+      "platform": "Naukri",
+      "sourceUrl": "https://example.com/careers/DEMO-1003",
+      "applyUrl": "https://example.com/careers/DEMO-1003",
+      "discoveredAt": "2026-10-02T07:45:00+05:30",
+      "postedAt": "2026-10-01T14:10:00+05:30",
+      "matchScore": 88,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "queued",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7500000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-3-1",
+          "at": "2026-10-02T07:45:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-3-2",
+          "at": "2026-10-02T08:10:00+05:30",
+          "type": "queued",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": []
+    },
+    {
+      "id": "job-005",
+      "identity": {
+        "platformJobId": "DEMO-1004",
+        "requisitionId": "DEMO-1004",
+        "canonicalEmployer": "Meridian AI",
+        "urls": [
+          "https://example.com/careers/DEMO-1004"
+        ]
+      },
+      "company": "Meridian AI",
+      "title": "Applied ML Engineer",
+      "location": "Bengaluru \u00b7 Hybrid",
+      "family": "ML Engineering",
+      "platform": "Indeed",
+      "sourceUrl": "https://example.com/careers/DEMO-1004",
+      "applyUrl": "https://example.com/careers/DEMO-1004",
+      "discoveredAt": "2026-10-02T07:44:00+05:30",
+      "postedAt": "2026-10-01T14:09:00+05:30",
+      "matchScore": 85,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "needs_review",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "Platform automation is not enabled. Review this listing manually or use an authorized employer application route.",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-4-1",
+          "at": "2026-10-02T07:44:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-4-2",
+          "at": "2026-10-02T08:09:00+05:30",
+          "type": "needs_review",
+          "note": "Platform automation is not enabled. Review this listing manually or use an authorized employer application route."
+        }
+      ],
+      "attempts": []
+    },
+    {
+      "id": "job-006",
+      "identity": {
+        "platformJobId": "DEMO-1005",
+        "requisitionId": "DEMO-1005",
+        "canonicalEmployer": "Kite Technologies",
+        "urls": [
+          "https://example.com/careers/DEMO-1005"
+        ]
+      },
+      "company": "Kite Technologies",
+      "title": "GenAI Platform Engineer",
+      "location": "Remote India",
+      "family": "GenAI / Agents",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1005",
+      "applyUrl": "https://example.com/careers/DEMO-1005",
+      "discoveredAt": "2026-10-02T07:48:00+05:30",
+      "postedAt": "2026-10-01T14:13:00+05:30",
+      "matchScore": 82,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-10-02T08:13:00+05:30",
+        "reference": "DEMO-RECEIPT-006",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-10-02T08:13:00+05:30",
+          "reference": "DEMO-RECEIPT-006",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-5-1",
+          "at": "2026-10-02T07:48:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-5-2",
+          "at": "2026-10-02T08:13:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-5",
+          "at": "2026-10-02T08:13:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-007",
+      "identity": {
+        "platformJobId": "DEMO-1006",
+        "requisitionId": "DEMO-1006",
+        "canonicalEmployer": "Cedar Software",
+        "urls": [
+          "https://example.com/careers/DEMO-1006"
+        ]
+      },
+      "company": "Cedar Software",
+      "title": "Senior Mobile Engineer",
+      "location": "Hyderabad",
+      "family": "Android",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1006",
+      "applyUrl": "https://example.com/careers/DEMO-1006",
+      "discoveredAt": "2026-10-02T07:47:00+05:30",
+      "postedAt": "2026-10-01T14:12:00+05:30",
+      "matchScore": 79,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7000000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-10-02T08:12:00+05:30",
+        "reference": "DEMO-RECEIPT-007",
+        "resumeId": "resume-1",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "af0dc09fd3e34b42fdb45405dbf770db33ced12c2b3112d2ef34f78374b6b103",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Android & mobile systems",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-10-02T08:12:00+05:30",
+          "reference": "DEMO-RECEIPT-007",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-6-1",
+          "at": "2026-10-02T07:47:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-6-2",
+          "at": "2026-10-02T08:12:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-6",
+          "at": "2026-10-02T08:12:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-008",
+      "identity": {
+        "platformJobId": "DEMO-1007",
+        "requisitionId": "DEMO-1007",
+        "canonicalEmployer": "Lumen Research",
+        "urls": [
+          "https://example.com/careers/DEMO-1007"
+        ]
+      },
+      "company": "Lumen Research",
+      "title": "Vision-language-action Engineer",
+      "location": "Pune \u00b7 Hybrid",
+      "family": "Robotics / VLA",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1007",
+      "applyUrl": "https://example.com/careers/DEMO-1007",
+      "discoveredAt": "2026-10-02T07:46:00+05:30",
+      "postedAt": "2026-10-01T14:11:00+05:30",
+      "matchScore": 76,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "LeRobot",
+        "VLA",
+        "Isaac Sim"
+      ],
+      "status": "in_progress",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-3",
+      "blockReason": "Previous attempt ended after Submit, before confirmation. Check employer application history before any retry.",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-7-1",
+          "at": "2026-10-02T07:46:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-7-2",
+          "at": "2026-10-02T08:11:00+05:30",
+          "type": "in_progress",
+          "note": "Previous attempt ended after Submit, before confirmation. Check employer application history before any retry."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-7",
+          "at": "2026-10-02T08:11:00+05:30",
+          "result": "unknown",
+          "detail": "Previous attempt ended after Submit, before confirmation. Check employer application history before any retry."
+        }
+      ]
+    },
+    {
+      "id": "job-009",
+      "identity": {
+        "platformJobId": "DEMO-1008",
+        "requisitionId": "DEMO-1008",
+        "canonicalEmployer": "Arbor Devices",
+        "urls": [
+          "https://example.com/careers/DEMO-1008"
+        ]
+      },
+      "company": "Arbor Devices",
+      "title": "On-device AI Engineer",
+      "location": "Bengaluru \u00b7 Hybrid",
+      "family": "Mobile AI",
+      "platform": "LinkedIn",
+      "sourceUrl": "https://example.com/careers/DEMO-1008",
+      "applyUrl": "https://example.com/careers/DEMO-1008",
+      "discoveredAt": "2026-10-02T07:45:00+05:30",
+      "postedAt": "2026-10-01T14:10:00+05:30",
+      "matchScore": 73,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "queued",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-8-1",
+          "at": "2026-10-02T07:45:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-8-2",
+          "at": "2026-10-02T08:10:00+05:30",
+          "type": "queued",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": []
+    },
+    {
+      "id": "job-010",
+      "identity": {
+        "platformJobId": "DEMO-1009",
+        "requisitionId": "DEMO-1009",
+        "canonicalEmployer": "Mosaic Labs",
+        "urls": [
+          "https://example.com/careers/DEMO-1009"
+        ]
+      },
+      "company": "Mosaic Labs",
+      "title": "Staff Android Engineer",
+      "location": "Remote India",
+      "family": "Android",
+      "platform": "Naukri",
+      "sourceUrl": "https://example.com/careers/DEMO-1009",
+      "applyUrl": "https://example.com/careers/DEMO-1009",
+      "discoveredAt": "2026-10-02T07:44:00+05:30",
+      "postedAt": "2026-10-01T14:09:00+05:30",
+      "matchScore": 96,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "failed",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7500000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "Upload failed before submission. No confirmation received. Review before retry.",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-9-1",
+          "at": "2026-10-02T07:44:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-9-2",
+          "at": "2026-10-02T08:09:00+05:30",
+          "type": "failed",
+          "note": "Upload failed before submission. No confirmation received. Review before retry."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-9",
+          "at": "2026-10-02T08:09:00+05:30",
+          "result": "failed",
+          "detail": "Upload failed before submission. No confirmation received. Review before retry."
+        }
+      ]
+    },
+    {
+      "id": "job-011",
+      "identity": {
+        "platformJobId": "DEMO-1010",
+        "requisitionId": "DEMO-1010",
+        "canonicalEmployer": "Nova Systems",
+        "urls": [
+          "https://example.com/careers/DEMO-1010"
+        ]
+      },
+      "company": "Nova Systems",
+      "title": "ML Systems Engineer",
+      "location": "Hyderabad",
+      "family": "ML Engineering",
+      "platform": "Indeed",
+      "sourceUrl": "https://example.com/careers/DEMO-1010",
+      "applyUrl": "https://example.com/careers/DEMO-1010",
+      "discoveredAt": "2026-10-02T07:48:00+05:30",
+      "postedAt": "2026-10-01T14:13:00+05:30",
+      "matchScore": 93,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "skipped",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "Role does not meet the configured seniority or base-compensation criteria.",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-10-1",
+          "at": "2026-10-02T07:48:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-10-2",
+          "at": "2026-10-02T08:13:00+05:30",
+          "type": "skipped",
+          "note": "Role does not meet the configured seniority or base-compensation criteria."
+        }
+      ],
+      "attempts": []
+    },
+    {
+      "id": "job-012",
+      "identity": {
+        "platformJobId": "DEMO-1011",
+        "requisitionId": "DEMO-1011",
+        "canonicalEmployer": "Copper Cloud",
+        "urls": [
+          "https://example.com/careers/DEMO-1011"
+        ]
+      },
+      "company": "Copper Cloud",
+      "title": "AI Product Engineer",
+      "location": "Pune \u00b7 Hybrid",
+      "family": "GenAI / Agents",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1011",
+      "applyUrl": "https://example.com/careers/DEMO-1011",
+      "discoveredAt": "2026-10-02T07:47:00+05:30",
+      "postedAt": "2026-10-01T14:12:00+05:30",
+      "matchScore": 90,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-10-02T08:12:00+05:30",
+        "reference": "DEMO-RECEIPT-012",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-10-02T08:12:00+05:30",
+          "reference": "DEMO-RECEIPT-012",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-11-1",
+          "at": "2026-10-02T07:47:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-11-2",
+          "at": "2026-10-02T08:12:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-11",
+          "at": "2026-10-02T08:12:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-013",
+      "identity": {
+        "platformJobId": "DEMO-1012",
+        "requisitionId": "DEMO-1012",
+        "canonicalEmployer": "Northstar Labs",
+        "urls": [
+          "https://example.com/careers/DEMO-1012"
+        ]
+      },
+      "company": "Northstar Labs",
+      "title": "Senior Android Engineer",
+      "location": "Bengaluru \u00b7 Hybrid",
+      "family": "Android",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1012",
+      "applyUrl": "https://example.com/careers/DEMO-1012",
+      "discoveredAt": "2026-10-01T07:46:00+05:30",
+      "postedAt": "2026-09-30T14:11:00+05:30",
+      "matchScore": 87,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7000000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-10-01T08:11:00+05:30",
+        "reference": "DEMO-RECEIPT-013",
+        "resumeId": "resume-1",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "af0dc09fd3e34b42fdb45405dbf770db33ced12c2b3112d2ef34f78374b6b103",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Android & mobile systems",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-10-01T08:11:00+05:30",
+          "reference": "DEMO-RECEIPT-013",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-12-1",
+          "at": "2026-10-01T07:46:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-12-2",
+          "at": "2026-10-01T08:11:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-12",
+          "at": "2026-10-01T08:11:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-014",
+      "identity": {
+        "platformJobId": "DEMO-1013",
+        "requisitionId": "DEMO-1013",
+        "canonicalEmployer": "Orbit Systems",
+        "urls": [
+          "https://example.com/careers/DEMO-1013"
+        ]
+      },
+      "company": "Orbit Systems",
+      "title": "Lead Engineer, Mobile AI",
+      "location": "Remote India",
+      "family": "Mobile AI",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1013",
+      "applyUrl": "https://example.com/careers/DEMO-1013",
+      "discoveredAt": "2026-10-01T07:45:00+05:30",
+      "postedAt": "2026-09-30T14:10:00+05:30",
+      "matchScore": 84,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-10-01T08:10:00+05:30",
+        "reference": "DEMO-RECEIPT-014",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-10-01T08:10:00+05:30",
+          "reference": "DEMO-RECEIPT-014",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-13-1",
+          "at": "2026-10-01T07:45:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-13-2",
+          "at": "2026-10-01T08:10:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-13",
+          "at": "2026-10-01T08:10:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-015",
+      "identity": {
+        "platformJobId": "DEMO-1014",
+        "requisitionId": "DEMO-1014",
+        "canonicalEmployer": "Aster Robotics",
+        "urls": [
+          "https://example.com/careers/DEMO-1014"
+        ]
+      },
+      "company": "Aster Robotics",
+      "title": "Robotics Learning Engineer",
+      "location": "Hyderabad",
+      "family": "Robotics / VLA",
+      "platform": "LinkedIn",
+      "sourceUrl": "https://example.com/careers/DEMO-1014",
+      "applyUrl": "https://example.com/careers/DEMO-1014",
+      "discoveredAt": "2026-09-30T07:44:00+05:30",
+      "postedAt": "2026-09-29T14:09:00+05:30",
+      "matchScore": 81,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "LeRobot",
+        "VLA",
+        "Isaac Sim"
+      ],
+      "status": "needs_review",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-3",
+      "blockReason": "Notice period is not present in the approved profile. A user answer is needed.",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-14-1",
+          "at": "2026-09-30T07:44:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-14-2",
+          "at": "2026-09-30T08:09:00+05:30",
+          "type": "needs_review",
+          "note": "Notice period is not present in the approved profile. A user answer is needed."
+        }
+      ],
+      "attempts": []
+    },
+    {
+      "id": "job-016",
+      "identity": {
+        "platformJobId": "DEMO-1015",
+        "requisitionId": "DEMO-1015",
+        "canonicalEmployer": "Helio Mobile",
+        "urls": [
+          "https://example.com/careers/DEMO-1015"
+        ]
+      },
+      "company": "Helio Mobile",
+      "title": "Senior Kotlin Engineer",
+      "location": "Pune \u00b7 Hybrid",
+      "family": "Android",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1015",
+      "applyUrl": "https://example.com/careers/DEMO-1015",
+      "discoveredAt": "2026-09-30T07:48:00+05:30",
+      "postedAt": "2026-09-29T14:13:00+05:30",
+      "matchScore": 78,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7500000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-30T08:13:00+05:30",
+        "reference": "DEMO-RECEIPT-016",
+        "resumeId": "resume-1",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "af0dc09fd3e34b42fdb45405dbf770db33ced12c2b3112d2ef34f78374b6b103",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Android & mobile systems",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-30T08:13:00+05:30",
+          "reference": "DEMO-RECEIPT-016",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-15-1",
+          "at": "2026-09-30T07:48:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-15-2",
+          "at": "2026-09-30T08:13:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-15",
+          "at": "2026-09-30T08:13:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-017",
+      "identity": {
+        "platformJobId": "DEMO-1016",
+        "requisitionId": "DEMO-1016",
+        "canonicalEmployer": "Meridian AI",
+        "urls": [
+          "https://example.com/careers/DEMO-1016"
+        ]
+      },
+      "company": "Meridian AI",
+      "title": "Applied ML Engineer",
+      "location": "Bengaluru \u00b7 Hybrid",
+      "family": "ML Engineering",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1016",
+      "applyUrl": "https://example.com/careers/DEMO-1016",
+      "discoveredAt": "2026-09-29T07:47:00+05:30",
+      "postedAt": "2026-09-28T14:12:00+05:30",
+      "matchScore": 75,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "interview",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-29T08:12:00+05:30",
+        "reference": "DEMO-RECEIPT-017",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-29T08:12:00+05:30",
+          "reference": "DEMO-RECEIPT-017",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-16-1",
+          "at": "2026-09-29T07:47:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-16-2",
+          "at": "2026-09-29T08:12:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-16",
+          "at": "2026-09-29T08:12:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-018",
+      "identity": {
+        "platformJobId": "DEMO-1017",
+        "requisitionId": "DEMO-1017",
+        "canonicalEmployer": "Kite Technologies",
+        "urls": [
+          "https://example.com/careers/DEMO-1017"
+        ]
+      },
+      "company": "Kite Technologies",
+      "title": "GenAI Platform Engineer",
+      "location": "Remote India",
+      "family": "GenAI / Agents",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1017",
+      "applyUrl": "https://example.com/careers/DEMO-1017",
+      "discoveredAt": "2026-09-29T07:46:00+05:30",
+      "postedAt": "2026-09-28T14:11:00+05:30",
+      "matchScore": 72,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-29T08:11:00+05:30",
+        "reference": "DEMO-RECEIPT-018",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-29T08:11:00+05:30",
+          "reference": "DEMO-RECEIPT-018",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-17-1",
+          "at": "2026-09-29T07:46:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-17-2",
+          "at": "2026-09-29T08:11:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-17",
+          "at": "2026-09-29T08:11:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-019",
+      "identity": {
+        "platformJobId": "DEMO-1018",
+        "requisitionId": "DEMO-1018",
+        "canonicalEmployer": "Cedar Software",
+        "urls": [
+          "https://example.com/careers/DEMO-1018"
+        ]
+      },
+      "company": "Cedar Software",
+      "title": "Senior Mobile Engineer",
+      "location": "Hyderabad",
+      "family": "Android",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1018",
+      "applyUrl": "https://example.com/careers/DEMO-1018",
+      "discoveredAt": "2026-09-28T07:45:00+05:30",
+      "postedAt": "2026-09-27T14:10:00+05:30",
+      "matchScore": 95,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "skipped",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7000000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "Role does not meet the configured seniority or base-compensation criteria.",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-18-1",
+          "at": "2026-09-28T07:45:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-18-2",
+          "at": "2026-09-28T08:10:00+05:30",
+          "type": "skipped",
+          "note": "Role does not meet the configured seniority or base-compensation criteria."
+        }
+      ],
+      "attempts": []
+    },
+    {
+      "id": "job-020",
+      "identity": {
+        "platformJobId": "DEMO-1019",
+        "requisitionId": "DEMO-1019",
+        "canonicalEmployer": "Lumen Research",
+        "urls": [
+          "https://example.com/careers/DEMO-1019"
+        ]
+      },
+      "company": "Lumen Research",
+      "title": "Vision-language-action Engineer",
+      "location": "Pune \u00b7 Hybrid",
+      "family": "Robotics / VLA",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1019",
+      "applyUrl": "https://example.com/careers/DEMO-1019",
+      "discoveredAt": "2026-09-28T07:44:00+05:30",
+      "postedAt": "2026-09-27T14:09:00+05:30",
+      "matchScore": 92,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "LeRobot",
+        "VLA",
+        "Isaac Sim"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-3",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-28T08:09:00+05:30",
+        "reference": "DEMO-RECEIPT-020",
+        "resumeId": "resume-3",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "ef2a7ad576e5fa3a7f335b1fba814a969c32624993ec4246c292cf5d7af3dda0",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Robotics & embodied AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-28T08:09:00+05:30",
+          "reference": "DEMO-RECEIPT-020",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-19-1",
+          "at": "2026-09-28T07:44:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-19-2",
+          "at": "2026-09-28T08:09:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-19",
+          "at": "2026-09-28T08:09:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-021",
+      "identity": {
+        "platformJobId": "DEMO-1020",
+        "requisitionId": "DEMO-1020",
+        "canonicalEmployer": "Arbor Devices",
+        "urls": [
+          "https://example.com/careers/DEMO-1020"
+        ]
+      },
+      "company": "Arbor Devices",
+      "title": "On-device AI Engineer",
+      "location": "Bengaluru \u00b7 Hybrid",
+      "family": "Mobile AI",
+      "platform": "LinkedIn",
+      "sourceUrl": "https://example.com/careers/DEMO-1020",
+      "applyUrl": "https://example.com/careers/DEMO-1020",
+      "discoveredAt": "2026-09-27T07:48:00+05:30",
+      "postedAt": "2026-09-26T14:13:00+05:30",
+      "matchScore": 89,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "failed",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "Upload failed before submission. No confirmation received. Review before retry.",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-20-1",
+          "at": "2026-09-27T07:48:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-20-2",
+          "at": "2026-09-27T08:13:00+05:30",
+          "type": "failed",
+          "note": "Upload failed before submission. No confirmation received. Review before retry."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-20",
+          "at": "2026-09-27T08:13:00+05:30",
+          "result": "failed",
+          "detail": "Upload failed before submission. No confirmation received. Review before retry."
+        }
+      ]
+    },
+    {
+      "id": "job-022",
+      "identity": {
+        "platformJobId": "DEMO-1021",
+        "requisitionId": "DEMO-1021",
+        "canonicalEmployer": "Mosaic Labs",
+        "urls": [
+          "https://example.com/careers/DEMO-1021"
+        ]
+      },
+      "company": "Mosaic Labs",
+      "title": "Staff Android Engineer",
+      "location": "Remote India",
+      "family": "Android",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1021",
+      "applyUrl": "https://example.com/careers/DEMO-1021",
+      "discoveredAt": "2026-09-27T07:47:00+05:30",
+      "postedAt": "2026-09-26T14:12:00+05:30",
+      "matchScore": 86,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7500000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-27T08:12:00+05:30",
+        "reference": "DEMO-RECEIPT-022",
+        "resumeId": "resume-1",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "af0dc09fd3e34b42fdb45405dbf770db33ced12c2b3112d2ef34f78374b6b103",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Android & mobile systems",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-27T08:12:00+05:30",
+          "reference": "DEMO-RECEIPT-022",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-21-1",
+          "at": "2026-09-27T07:47:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-21-2",
+          "at": "2026-09-27T08:12:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-21",
+          "at": "2026-09-27T08:12:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-023",
+      "identity": {
+        "platformJobId": "DEMO-1022",
+        "requisitionId": "DEMO-1022",
+        "canonicalEmployer": "Nova Systems",
+        "urls": [
+          "https://example.com/careers/DEMO-1022"
+        ]
+      },
+      "company": "Nova Systems",
+      "title": "ML Systems Engineer",
+      "location": "Hyderabad",
+      "family": "ML Engineering",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1022",
+      "applyUrl": "https://example.com/careers/DEMO-1022",
+      "discoveredAt": "2026-09-26T07:46:00+05:30",
+      "postedAt": "2026-09-25T14:11:00+05:30",
+      "matchScore": 83,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "interview",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-26T08:11:00+05:30",
+        "reference": "DEMO-RECEIPT-023",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-26T08:11:00+05:30",
+          "reference": "DEMO-RECEIPT-023",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-22-1",
+          "at": "2026-09-26T07:46:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-22-2",
+          "at": "2026-09-26T08:11:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-22",
+          "at": "2026-09-26T08:11:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-024",
+      "identity": {
+        "platformJobId": "DEMO-1023",
+        "requisitionId": "DEMO-1023",
+        "canonicalEmployer": "Copper Cloud",
+        "urls": [
+          "https://example.com/careers/DEMO-1023"
+        ]
+      },
+      "company": "Copper Cloud",
+      "title": "AI Product Engineer",
+      "location": "Pune \u00b7 Hybrid",
+      "family": "GenAI / Agents",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1023",
+      "applyUrl": "https://example.com/careers/DEMO-1023",
+      "discoveredAt": "2026-09-26T07:45:00+05:30",
+      "postedAt": "2026-09-25T14:10:00+05:30",
+      "matchScore": 80,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-26T08:10:00+05:30",
+        "reference": "DEMO-RECEIPT-024",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-26T08:10:00+05:30",
+          "reference": "DEMO-RECEIPT-024",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-23-1",
+          "at": "2026-09-26T07:45:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-23-2",
+          "at": "2026-09-26T08:10:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-23",
+          "at": "2026-09-26T08:10:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-025",
+      "identity": {
+        "platformJobId": "DEMO-1024",
+        "requisitionId": "DEMO-1024",
+        "canonicalEmployer": "Northstar Labs",
+        "urls": [
+          "https://example.com/careers/DEMO-1024"
+        ]
+      },
+      "company": "Northstar Labs",
+      "title": "Senior Android Engineer",
+      "location": "Bengaluru \u00b7 Hybrid",
+      "family": "Android",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1024",
+      "applyUrl": "https://example.com/careers/DEMO-1024",
+      "discoveredAt": "2026-09-25T07:44:00+05:30",
+      "postedAt": "2026-09-24T14:09:00+05:30",
+      "matchScore": 77,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "queued",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7000000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-24-1",
+          "at": "2026-09-25T07:44:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-24-2",
+          "at": "2026-09-25T08:09:00+05:30",
+          "type": "queued",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": []
+    },
+    {
+      "id": "job-026",
+      "identity": {
+        "platformJobId": "DEMO-1025",
+        "requisitionId": "DEMO-1025",
+        "canonicalEmployer": "Orbit Systems",
+        "urls": [
+          "https://example.com/careers/DEMO-1025"
+        ]
+      },
+      "company": "Orbit Systems",
+      "title": "Lead Engineer, Mobile AI",
+      "location": "Remote India",
+      "family": "Mobile AI",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1025",
+      "applyUrl": "https://example.com/careers/DEMO-1025",
+      "discoveredAt": "2026-09-25T07:48:00+05:30",
+      "postedAt": "2026-09-24T14:13:00+05:30",
+      "matchScore": 74,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-25T08:13:00+05:30",
+        "reference": "DEMO-RECEIPT-026",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-25T08:13:00+05:30",
+          "reference": "DEMO-RECEIPT-026",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-25-1",
+          "at": "2026-09-25T07:48:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-25-2",
+          "at": "2026-09-25T08:13:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-25",
+          "at": "2026-09-25T08:13:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-027",
+      "identity": {
+        "platformJobId": "DEMO-1026",
+        "requisitionId": "DEMO-1026",
+        "canonicalEmployer": "Aster Robotics",
+        "urls": [
+          "https://example.com/careers/DEMO-1026"
+        ]
+      },
+      "company": "Aster Robotics",
+      "title": "Robotics Learning Engineer",
+      "location": "Hyderabad",
+      "family": "Robotics / VLA",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1026",
+      "applyUrl": "https://example.com/careers/DEMO-1026",
+      "discoveredAt": "2026-09-24T07:47:00+05:30",
+      "postedAt": "2026-09-23T14:12:00+05:30",
+      "matchScore": 97,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "LeRobot",
+        "VLA",
+        "Isaac Sim"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-3",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-24T08:12:00+05:30",
+        "reference": "DEMO-RECEIPT-027",
+        "resumeId": "resume-3",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "ef2a7ad576e5fa3a7f335b1fba814a969c32624993ec4246c292cf5d7af3dda0",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Robotics & embodied AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-24T08:12:00+05:30",
+          "reference": "DEMO-RECEIPT-027",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-26-1",
+          "at": "2026-09-24T07:47:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-26-2",
+          "at": "2026-09-24T08:12:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-26",
+          "at": "2026-09-24T08:12:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-028",
+      "identity": {
+        "platformJobId": "DEMO-1027",
+        "requisitionId": "DEMO-1027",
+        "canonicalEmployer": "Helio Mobile",
+        "urls": [
+          "https://example.com/careers/DEMO-1027"
+        ]
+      },
+      "company": "Helio Mobile",
+      "title": "Senior Kotlin Engineer",
+      "location": "Pune \u00b7 Hybrid",
+      "family": "Android",
+      "platform": "Naukri",
+      "sourceUrl": "https://example.com/careers/DEMO-1027",
+      "applyUrl": "https://example.com/careers/DEMO-1027",
+      "discoveredAt": "2026-09-24T07:46:00+05:30",
+      "postedAt": "2026-09-23T14:11:00+05:30",
+      "matchScore": 94,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "skipped",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7500000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "Role does not meet the configured seniority or base-compensation criteria.",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-27-1",
+          "at": "2026-09-24T07:46:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-27-2",
+          "at": "2026-09-24T08:11:00+05:30",
+          "type": "skipped",
+          "note": "Role does not meet the configured seniority or base-compensation criteria."
+        }
+      ],
+      "attempts": []
+    },
+    {
+      "id": "job-029",
+      "identity": {
+        "platformJobId": "DEMO-1028",
+        "requisitionId": "DEMO-1028",
+        "canonicalEmployer": "Meridian AI",
+        "urls": [
+          "https://example.com/careers/DEMO-1028"
+        ]
+      },
+      "company": "Meridian AI",
+      "title": "Applied ML Engineer",
+      "location": "Bengaluru \u00b7 Hybrid",
+      "family": "ML Engineering",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1028",
+      "applyUrl": "https://example.com/careers/DEMO-1028",
+      "discoveredAt": "2026-09-23T07:45:00+05:30",
+      "postedAt": "2026-09-22T14:10:00+05:30",
+      "matchScore": 91,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "response",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-23T08:10:00+05:30",
+        "reference": "DEMO-RECEIPT-029",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-23T08:10:00+05:30",
+          "reference": "DEMO-RECEIPT-029",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-28-1",
+          "at": "2026-09-23T07:45:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-28-2",
+          "at": "2026-09-23T08:10:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-28",
+          "at": "2026-09-23T08:10:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-030",
+      "identity": {
+        "platformJobId": "DEMO-1029",
+        "requisitionId": "DEMO-1029",
+        "canonicalEmployer": "Kite Technologies",
+        "urls": [
+          "https://example.com/careers/DEMO-1029"
+        ]
+      },
+      "company": "Kite Technologies",
+      "title": "GenAI Platform Engineer",
+      "location": "Remote India",
+      "family": "GenAI / Agents",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1029",
+      "applyUrl": "https://example.com/careers/DEMO-1029",
+      "discoveredAt": "2026-09-23T07:44:00+05:30",
+      "postedAt": "2026-09-22T14:09:00+05:30",
+      "matchScore": 88,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-23T08:09:00+05:30",
+        "reference": "DEMO-RECEIPT-030",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-23T08:09:00+05:30",
+          "reference": "DEMO-RECEIPT-030",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-29-1",
+          "at": "2026-09-23T07:44:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-29-2",
+          "at": "2026-09-23T08:09:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-29",
+          "at": "2026-09-23T08:09:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-031",
+      "identity": {
+        "platformJobId": "DEMO-1030",
+        "requisitionId": "DEMO-1030",
+        "canonicalEmployer": "Cedar Software",
+        "urls": [
+          "https://example.com/careers/DEMO-1030"
+        ]
+      },
+      "company": "Cedar Software",
+      "title": "Senior Mobile Engineer",
+      "location": "Hyderabad",
+      "family": "Android",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1030",
+      "applyUrl": "https://example.com/careers/DEMO-1030",
+      "discoveredAt": "2026-09-22T07:48:00+05:30",
+      "postedAt": "2026-09-21T14:13:00+05:30",
+      "matchScore": 85,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7000000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-22T08:13:00+05:30",
+        "reference": "DEMO-RECEIPT-031",
+        "resumeId": "resume-1",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "af0dc09fd3e34b42fdb45405dbf770db33ced12c2b3112d2ef34f78374b6b103",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Android & mobile systems",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-22T08:13:00+05:30",
+          "reference": "DEMO-RECEIPT-031",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-30-1",
+          "at": "2026-09-22T07:48:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-30-2",
+          "at": "2026-09-22T08:13:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-30",
+          "at": "2026-09-22T08:13:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-032",
+      "identity": {
+        "platformJobId": "DEMO-1031",
+        "requisitionId": "DEMO-1031",
+        "canonicalEmployer": "Lumen Research",
+        "urls": [
+          "https://example.com/careers/DEMO-1031"
+        ]
+      },
+      "company": "Lumen Research",
+      "title": "Vision-language-action Engineer",
+      "location": "Pune \u00b7 Hybrid",
+      "family": "Robotics / VLA",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1031",
+      "applyUrl": "https://example.com/careers/DEMO-1031",
+      "discoveredAt": "2026-09-22T07:47:00+05:30",
+      "postedAt": "2026-09-21T14:12:00+05:30",
+      "matchScore": 82,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "LeRobot",
+        "VLA",
+        "Isaac Sim"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-3",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-22T08:12:00+05:30",
+        "reference": "DEMO-RECEIPT-032",
+        "resumeId": "resume-3",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "ef2a7ad576e5fa3a7f335b1fba814a969c32624993ec4246c292cf5d7af3dda0",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Robotics & embodied AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-22T08:12:00+05:30",
+          "reference": "DEMO-RECEIPT-032",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-31-1",
+          "at": "2026-09-22T07:47:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-31-2",
+          "at": "2026-09-22T08:12:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-31",
+          "at": "2026-09-22T08:12:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-033",
+      "identity": {
+        "platformJobId": "DEMO-1032",
+        "requisitionId": "DEMO-1032",
+        "canonicalEmployer": "Arbor Devices",
+        "urls": [
+          "https://example.com/careers/DEMO-1032"
+        ]
+      },
+      "company": "Arbor Devices",
+      "title": "On-device AI Engineer",
+      "location": "Bengaluru \u00b7 Hybrid",
+      "family": "Mobile AI",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1032",
+      "applyUrl": "https://example.com/careers/DEMO-1032",
+      "discoveredAt": "2026-09-21T07:46:00+05:30",
+      "postedAt": "2026-09-20T14:11:00+05:30",
+      "matchScore": 79,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-21T08:11:00+05:30",
+        "reference": "DEMO-RECEIPT-033",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-21T08:11:00+05:30",
+          "reference": "DEMO-RECEIPT-033",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-32-1",
+          "at": "2026-09-21T07:46:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-32-2",
+          "at": "2026-09-21T08:11:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-32",
+          "at": "2026-09-21T08:11:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-034",
+      "identity": {
+        "platformJobId": "DEMO-1033",
+        "requisitionId": "DEMO-1033",
+        "canonicalEmployer": "Mosaic Labs",
+        "urls": [
+          "https://example.com/careers/DEMO-1033"
+        ]
+      },
+      "company": "Mosaic Labs",
+      "title": "Staff Android Engineer",
+      "location": "Remote India",
+      "family": "Android",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1033",
+      "applyUrl": "https://example.com/careers/DEMO-1033",
+      "discoveredAt": "2026-09-21T07:45:00+05:30",
+      "postedAt": "2026-09-20T14:10:00+05:30",
+      "matchScore": 76,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": {
+        "min": 5500000,
+        "max": 7500000,
+        "currency": "INR",
+        "component": "base",
+        "period": "year",
+        "source": "Fictional salary range for UI demonstration."
+      },
+      "resumeId": "resume-1",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-21T08:10:00+05:30",
+        "reference": "DEMO-RECEIPT-034",
+        "resumeId": "resume-1",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "af0dc09fd3e34b42fdb45405dbf770db33ced12c2b3112d2ef34f78374b6b103",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Android & mobile systems",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-21T08:10:00+05:30",
+          "reference": "DEMO-RECEIPT-034",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-33-1",
+          "at": "2026-09-21T07:45:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-33-2",
+          "at": "2026-09-21T08:10:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-33",
+          "at": "2026-09-21T08:10:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    },
+    {
+      "id": "job-035",
+      "identity": {
+        "platformJobId": "DEMO-1034",
+        "requisitionId": "DEMO-1034",
+        "canonicalEmployer": "Nova Systems",
+        "urls": [
+          "https://example.com/careers/DEMO-1034"
+        ]
+      },
+      "company": "Nova Systems",
+      "title": "ML Systems Engineer",
+      "location": "Hyderabad",
+      "family": "ML Engineering",
+      "platform": "Indeed",
+      "sourceUrl": "https://example.com/careers/DEMO-1034",
+      "applyUrl": "https://example.com/careers/DEMO-1034",
+      "discoveredAt": "2026-09-20T07:44:00+05:30",
+      "postedAt": "2026-09-19T14:09:00+05:30",
+      "matchScore": 73,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "queued",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": null,
+      "events": [
+        {
+          "id": "ev-34-1",
+          "at": "2026-09-20T07:44:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-34-2",
+          "at": "2026-09-20T08:09:00+05:30",
+          "type": "queued",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": []
+    },
+    {
+      "id": "job-036",
+      "identity": {
+        "platformJobId": "DEMO-1035",
+        "requisitionId": "DEMO-1035",
+        "canonicalEmployer": "Copper Cloud",
+        "urls": [
+          "https://example.com/careers/DEMO-1035"
+        ]
+      },
+      "company": "Copper Cloud",
+      "title": "AI Product Engineer",
+      "location": "Pune \u00b7 Hybrid",
+      "family": "GenAI / Agents",
+      "platform": "Company careers",
+      "sourceUrl": "https://example.com/careers/DEMO-1035",
+      "applyUrl": "https://example.com/careers/DEMO-1035",
+      "discoveredAt": "2026-09-20T07:48:00+05:30",
+      "postedAt": "2026-09-19T14:13:00+05:30",
+      "matchScore": 96,
+      "matchReasons": [
+        "Strong overlap with the selected resume\u2019s technical focus.",
+        "Role is within the 4\u20138 year experience search window."
+      ],
+      "caveats": [
+        "Illustrative match estimate; not an ATS score."
+      ],
+      "tags": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision"
+      ],
+      "status": "applied",
+      "outcome": "none",
+      "salary": null,
+      "resumeId": "resume-2",
+      "blockReason": "",
+      "submission": {
+        "at": "2026-09-20T08:13:00+05:30",
+        "reference": "DEMO-RECEIPT-036",
+        "resumeId": "resume-2",
+        "resumeVersion": "1.0-demo",
+        "resumeSha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+        "profileVersion": "demo-profile-v1",
+        "answers": [
+          {
+            "question": "Primary technical focus",
+            "answer": "Applied & on-device AI",
+            "origin": "approved_profile"
+          },
+          {
+            "question": "Preferred location",
+            "answer": "India",
+            "origin": "approved_profile"
+          }
+        ],
+        "coverLetter": "DEMO ONLY. This example demonstrates the exact cover-letter text retained with a submission. No real application has been sent.",
+        "evidence": {
+          "kind": "confirmation_page",
+          "observedAt": "2026-09-20T08:13:00+05:30",
+          "reference": "DEMO-RECEIPT-036",
+          "summary": "DEMO ONLY: \u201cApplication received\u201d shown after submission. This receipt is fictional.",
+          "artifactId": null
+        }
+      },
+      "events": [
+        {
+          "id": "ev-35-1",
+          "at": "2026-09-20T07:48:00+05:30",
+          "type": "discovered",
+          "note": "DEMO: role discovered and canonical identity checked."
+        },
+        {
+          "id": "ev-35-2",
+          "at": "2026-09-20T08:13:00+05:30",
+          "type": "applied",
+          "note": "DEMO: application confirmation recorded."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "attempt-35",
+          "at": "2026-09-20T08:13:00+05:30",
+          "result": "confirmed",
+          "detail": "DEMO confirmation only."
+        }
+      ]
+    }
+  ],
+  "resumes": [
+    {
+      "id": "resume-1",
+      "label": "Android & mobile systems",
+      "version": "1.0-demo",
+      "approved": true,
+      "filename": "demo-resume-1.txt",
+      "sha256": "af0dc09fd3e34b42fdb45405dbf770db33ced12c2b3112d2ef34f78374b6b103",
+      "artifactId": "art-resume-1",
+      "text": "DEMONSTRATION RESUME \u2014 NOT FOR SUBMISSION\n\nAndroid & mobile systems\nVersion: 1.0-demo\n\nThis is a fictional resume artifact included to demonstrate exact-file tracking.\nReplace it with an approved real resume before enabling your cloud workflow.\n\nIllustrative skills: Kotlin, Jetpack Compose, Architecture, Performance",
+      "skills": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Architecture",
+        "Performance"
+      ],
+      "updatedAt": "2026-09-17T08:18:00+05:30"
+    },
+    {
+      "id": "resume-2",
+      "label": "Applied & on-device AI",
+      "version": "1.0-demo",
+      "approved": true,
+      "filename": "demo-resume-2.txt",
+      "sha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6",
+      "artifactId": "art-resume-2",
+      "text": "DEMONSTRATION RESUME \u2014 NOT FOR SUBMISSION\n\nApplied & on-device AI\nVersion: 1.0-demo\n\nThis is a fictional resume artifact included to demonstrate exact-file tracking.\nReplace it with an approved real resume before enabling your cloud workflow.\n\nIllustrative skills: PyTorch, ONNX, Computer vision, Mobile inference",
+      "skills": [
+        "PyTorch",
+        "ONNX",
+        "Computer vision",
+        "Mobile inference"
+      ],
+      "updatedAt": "2026-09-17T08:18:00+05:30"
+    },
+    {
+      "id": "resume-3",
+      "label": "Robotics & embodied AI",
+      "version": "1.0-demo",
+      "approved": true,
+      "filename": "demo-resume-3.txt",
+      "sha256": "ef2a7ad576e5fa3a7f335b1fba814a969c32624993ec4246c292cf5d7af3dda0",
+      "artifactId": "art-resume-3",
+      "text": "DEMONSTRATION RESUME \u2014 NOT FOR SUBMISSION\n\nRobotics & embodied AI\nVersion: 1.0-demo\n\nThis is a fictional resume artifact included to demonstrate exact-file tracking.\nReplace it with an approved real resume before enabling your cloud workflow.\n\nIllustrative skills: LeRobot, VLA, Isaac Sim, Multi-camera data",
+      "skills": [
+        "LeRobot",
+        "VLA",
+        "Isaac Sim",
+        "Multi-camera data"
+      ],
+      "updatedAt": "2026-09-17T08:18:00+05:30"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "art-resume-1",
+      "name": "demo-resume-1.txt",
+      "mime": "text/plain",
+      "base64": "REVNT05TVFJBVElPTiBSRVNVTUUg4oCUIE5PVCBGT1IgU1VCTUlTU0lPTgoKQW5kcm9pZCAmIG1vYmlsZSBzeXN0ZW1zClZlcnNpb246IDEuMC1kZW1vCgpUaGlzIGlzIGEgZmljdGlvbmFsIHJlc3VtZSBhcnRpZmFjdCBpbmNsdWRlZCB0byBkZW1vbnN0cmF0ZSBleGFjdC1maWxlIHRyYWNraW5nLgpSZXBsYWNlIGl0IHdpdGggYW4gYXBwcm92ZWQgcmVhbCByZXN1bWUgYmVmb3JlIGVuYWJsaW5nIHlvdXIgY2xvdWQgd29ya2Zsb3cuCgpJbGx1c3RyYXRpdmUgc2tpbGxzOiBLb3RsaW4sIEpldHBhY2sgQ29tcG9zZSwgQXJjaGl0ZWN0dXJlLCBQZXJmb3JtYW5jZQ==",
+      "sha256": "af0dc09fd3e34b42fdb45405dbf770db33ced12c2b3112d2ef34f78374b6b103"
+    },
+    {
+      "id": "art-resume-2",
+      "name": "demo-resume-2.txt",
+      "mime": "text/plain",
+      "base64": "REVNT05TVFJBVElPTiBSRVNVTUUg4oCUIE5PVCBGT1IgU1VCTUlTU0lPTgoKQXBwbGllZCAmIG9uLWRldmljZSBBSQpWZXJzaW9uOiAxLjAtZGVtbwoKVGhpcyBpcyBhIGZpY3Rpb25hbCByZXN1bWUgYXJ0aWZhY3QgaW5jbHVkZWQgdG8gZGVtb25zdHJhdGUgZXhhY3QtZmlsZSB0cmFja2luZy4KUmVwbGFjZSBpdCB3aXRoIGFuIGFwcHJvdmVkIHJlYWwgcmVzdW1lIGJlZm9yZSBlbmFibGluZyB5b3VyIGNsb3VkIHdvcmtmbG93LgoKSWxsdXN0cmF0aXZlIHNraWxsczogUHlUb3JjaCwgT05OWCwgQ29tcHV0ZXIgdmlzaW9uLCBNb2JpbGUgaW5mZXJlbmNl",
+      "sha256": "bf862ee2537ee38c4698dadac93813cbdf8dca53a328f0dd6213aecad3d1f6d6"
+    },
+    {
+      "id": "art-resume-3",
+      "name": "demo-resume-3.txt",
+      "mime": "text/plain",
+      "base64": "REVNT05TVFJBVElPTiBSRVNVTUUg4oCUIE5PVCBGT1IgU1VCTUlTU0lPTgoKUm9ib3RpY3MgJiBlbWJvZGllZCBBSQpWZXJzaW9uOiAxLjAtZGVtbwoKVGhpcyBpcyBhIGZpY3Rpb25hbCByZXN1bWUgYXJ0aWZhY3QgaW5jbHVkZWQgdG8gZGVtb25zdHJhdGUgZXhhY3QtZmlsZSB0cmFja2luZy4KUmVwbGFjZSBpdCB3aXRoIGFuIGFwcHJvdmVkIHJlYWwgcmVzdW1lIGJlZm9yZSBlbmFibGluZyB5b3VyIGNsb3VkIHdvcmtmbG93LgoKSWxsdXN0cmF0aXZlIHNraWxsczogTGVSb2JvdCwgVkxBLCBJc2FhYyBTaW0sIE11bHRpLWNhbWVyYSBkYXRh",
+      "sha256": "ef2a7ad576e5fa3a7f335b1fba814a969c32624993ec4246c292cf5d7af3dda0"
+    }
+  ],
+  "feeds": [
+    {
+      "id": "feed-1",
+      "tab": "robotics",
+      "category": "POLICY LEARNING",
+      "title": "A practical VLA benchmark, not another leaderboard",
+      "summary": "Compare policies on the same pick-and-place task, camera layout and demonstration budget. This card illustrates the kind of actionable research brief your Dot should produce.",
+      "whyItMatters": "Useful for your SO-101 and multi-camera manipulation experiments.",
+      "action": "Ask Dot to populate verified release notes and measure success rate, latency and failure recovery.",
+      "publishedAt": "2026-10-02T08:18:00+05:30",
+      "discoveredAt": "2026-10-02T08:18:00+05:30",
+      "tags": [
+        "VLA",
+        "LeRobot",
+        "SO-101"
+      ],
+      "sources": [
+        {
+          "title": "LeRobot repository",
+          "url": "https://github.com/huggingface/lerobot"
+        }
+      ],
+      "confidence": "medium",
+      "verified": false
+    },
+    {
+      "id": "feed-2",
+      "tab": "robotics",
+      "category": "SIMULATION",
+      "title": "From simulation variation to robust manipulation",
+      "summary": "Track changes in scene, texture, lighting and object placement separately instead of treating all synthetic data as one intervention. Illustrative research agenda, not a new release claim.",
+      "whyItMatters": "Connects simulation data collection to policy robustness.",
+      "action": "Capture a controlled Isaac Sim experiment and link its source evidence.",
+      "publishedAt": "2026-10-01T08:18:00+05:30",
+      "discoveredAt": "2026-10-02T08:18:00+05:30",
+      "tags": [
+        "Isaac Sim",
+        "Domain randomization"
+      ],
+      "sources": [
+        {
+          "title": "Isaac Sim documentation",
+          "url": "https://docs.isaacsim.omniverse.nvidia.com/"
+        }
+      ],
+      "confidence": "medium",
+      "verified": false
+    },
+    {
+      "id": "feed-3",
+      "tab": "robotics",
+      "category": "EXPERIMENT TRACK",
+      "title": "OpenPI and the evaluation questions that matter",
+      "summary": "Use a repeatable evaluation protocol when comparing VLA families. Record exact checkpoints, hardware, task variation and number of attempts.",
+      "whyItMatters": "Keeps model comparisons relevant to your robot and compute budget.",
+      "action": "Create a reproducible experiment card with configuration and source revision.",
+      "publishedAt": "2026-09-30T08:18:00+05:30",
+      "discoveredAt": "2026-10-02T08:18:00+05:30",
+      "tags": [
+        "OpenPI",
+        "Evaluation"
+      ],
+      "sources": [
+        {
+          "title": "OpenPI repository",
+          "url": "https://github.com/Physical-Intelligence/openpi"
+        }
+      ],
+      "confidence": "medium",
+      "verified": false
+    },
+    {
+      "id": "feed-4",
+      "tab": "ai",
+      "category": "LONG-CONTEXT SYSTEMS",
+      "title": "Document length is not the same as retrieval quality",
+      "summary": "A watchlist card for long-document evaluation: evidence recall, contradiction handling, exact clause citation and revision sensitivity. No current benchmark result is claimed here.",
+      "whyItMatters": "Directly relevant to tender-document analysis and drafting quality.",
+      "action": "Have Dot cite primary research and identify a small test on your own documents.",
+      "publishedAt": "2026-10-02T08:18:00+05:30",
+      "discoveredAt": "2026-10-02T08:18:00+05:30",
+      "tags": [
+        "Long context",
+        "RAG",
+        "Evaluation"
+      ],
+      "sources": [
+        {
+          "title": "arXiv computer science",
+          "url": "https://arxiv.org/list/cs.CL/recent"
+        }
+      ],
+      "confidence": "medium",
+      "verified": false
+    },
+    {
+      "id": "feed-5",
+      "tab": "ai",
+      "category": "AGENT ENGINEERING",
+      "title": "Make tool calls resumable, observable and idempotent",
+      "summary": "Research updates should distinguish what a tool attempted from what it proved. A useful agent report includes state, evidence and explicit uncertainty.",
+      "whyItMatters": "The same principle underpins reliable dashboard updates and application tracking.",
+      "action": "Investigate one primary-source implementation and note retry behavior.",
+      "publishedAt": "2026-10-01T08:18:00+05:30",
+      "discoveredAt": "2026-10-02T08:18:00+05:30",
+      "tags": [
+        "Agents",
+        "Reliability"
+      ],
+      "sources": [
+        {
+          "title": "OpenAI developer documentation",
+          "url": "https://developers.openai.com/"
+        }
+      ],
+      "confidence": "medium",
+      "verified": false
+    },
+    {
+      "id": "feed-6",
+      "tab": "ai",
+      "category": "OPEN MODELS",
+      "title": "An open-model radar tied to actual deployment constraints",
+      "summary": "Track license terms, memory requirements, context behavior and supported inference formats alongside model quality. This is a sample watchlist, not model-release news.",
+      "whyItMatters": "Helps separate promising experiments from models that fit your available compute.",
+      "action": "Ask Dot for primary model cards and measured, hardware-specific comparisons.",
+      "publishedAt": "2026-09-30T08:18:00+05:30",
+      "discoveredAt": "2026-10-02T08:18:00+05:30",
+      "tags": [
+        "Open weights",
+        "Inference"
+      ],
+      "sources": [
+        {
+          "title": "Hugging Face models",
+          "url": "https://huggingface.co/models"
+        }
+      ],
+      "confidence": "medium",
+      "verified": false
+    },
+    {
+      "id": "feed-7",
+      "tab": "vellint",
+      "category": "PRODUCT DISCOVERY",
+      "title": "Requirement \u2192 decision \u2192 review: preserve the chain",
+      "summary": "Monitor approaches to clause traceability, amendments and reviewable engineering narratives rather than generic document-generation claims.",
+      "whyItMatters": "Fits the Vellint workflow: understand requirements, capture engineering inputs and produce reviewable CDD/PDD drafts.",
+      "action": "Capture evidence and a small product experiment.",
+      "publishedAt": "2026-10-02T08:18:00+05:30",
+      "discoveredAt": "2026-10-02T08:18:00+05:30",
+      "tags": [
+        "Traceability",
+        "Engineering docs"
+      ],
+      "sources": [
+        {
+          "title": "Vellint",
+          "url": "https://vellint.com/"
+        }
+      ],
+      "confidence": "medium",
+      "verified": false
+    },
+    {
+      "id": "feed-8",
+      "tab": "vellint",
+      "category": "EXPERIMENT BACKLOG",
+      "title": "A useful weekly check: where do reviewers lose context?",
+      "summary": "A sample product-learning card to collect friction around source PDFs, deliverable selection, unresolved questions and revision impact.",
+      "whyItMatters": "Keeps research connected to reviewer needs without inventing customer feedback.",
+      "action": "Replace this sample with a consented, source-linked observation.",
+      "publishedAt": "2026-10-01T08:18:00+05:30",
+      "discoveredAt": "2026-10-02T08:18:00+05:30",
+      "tags": [
+        "Review",
+        "Document AI"
+      ],
+      "sources": [
+        {
+          "title": "Vellint",
+          "url": "https://vellint.com/"
+        }
+      ],
+      "confidence": "medium",
+      "verified": false
+    }
+  ],
+  "runs": [
+    {
+      "id": "demo-run-1",
+      "kind": "jobs",
+      "status": "partial",
+      "startedAt": "2026-10-02T08:00:00+05:30",
+      "finishedAt": "2026-10-02T08:16:00+05:30",
+      "summary": "DEMO ONLY. Simulated morning job run; no accounts were contacted.",
+      "counts": {
+        "discovered": 12,
+        "duplicates": 8,
+        "submitted": 5,
+        "needsReview": 3,
+        "failed": 1
+      },
+      "events": [
+        {
+          "id": "run0-1",
+          "at": "2026-10-02T08:00:00+05:30",
+          "type": "start",
+          "note": "DEMO: encrypted ledger loaded; fresh listings checked."
+        },
+        {
+          "id": "run0-2",
+          "at": "2026-10-02T08:07:00+05:30",
+          "type": "dedupe",
+          "note": "DEMO: 8 repeated identities excluded."
+        },
+        {
+          "id": "run0-3",
+          "at": "2026-10-02T08:16:00+05:30",
+          "type": "checkpoint",
+          "note": "DEMO: results reconciled and encrypted vault prepared."
+        }
+      ]
+    },
+    {
+      "id": "demo-run-2",
+      "kind": "jobs",
+      "status": "completed",
+      "startedAt": "2026-10-01T08:00:00+05:30",
+      "finishedAt": "2026-10-01T08:16:00+05:30",
+      "summary": "DEMO ONLY. Simulated morning job run; no accounts were contacted.",
+      "counts": {
+        "discovered": 2,
+        "duplicates": 5,
+        "submitted": 2,
+        "needsReview": 0,
+        "failed": 0
+      },
+      "events": [
+        {
+          "id": "run1-1",
+          "at": "2026-10-01T08:00:00+05:30",
+          "type": "start",
+          "note": "DEMO: encrypted ledger loaded; fresh listings checked."
+        },
+        {
+          "id": "run1-2",
+          "at": "2026-10-01T08:07:00+05:30",
+          "type": "dedupe",
+          "note": "DEMO: 5 repeated identities excluded."
+        },
+        {
+          "id": "run1-3",
+          "at": "2026-10-01T08:16:00+05:30",
+          "type": "checkpoint",
+          "note": "DEMO: results reconciled and encrypted vault prepared."
+        }
+      ]
+    },
+    {
+      "id": "demo-run-3",
+      "kind": "jobs",
+      "status": "completed",
+      "startedAt": "2026-09-30T08:00:00+05:30",
+      "finishedAt": "2026-09-30T08:16:00+05:30",
+      "summary": "DEMO ONLY. Simulated morning job run; no accounts were contacted.",
+      "counts": {
+        "discovered": 2,
+        "duplicates": 7,
+        "submitted": 1,
+        "needsReview": 1,
+        "failed": 0
+      },
+      "events": [
+        {
+          "id": "run2-1",
+          "at": "2026-09-30T08:00:00+05:30",
+          "type": "start",
+          "note": "DEMO: encrypted ledger loaded; fresh listings checked."
+        },
+        {
+          "id": "run2-2",
+          "at": "2026-09-30T08:07:00+05:30",
+          "type": "dedupe",
+          "note": "DEMO: 7 repeated identities excluded."
+        },
+        {
+          "id": "run2-3",
+          "at": "2026-09-30T08:16:00+05:30",
+          "type": "checkpoint",
+          "note": "DEMO: results reconciled and encrypted vault prepared."
+        }
+      ]
+    },
+    {
+      "id": "demo-run-4",
+      "kind": "jobs",
+      "status": "completed",
+      "startedAt": "2026-09-29T08:00:00+05:30",
+      "finishedAt": "2026-09-29T08:16:00+05:30",
+      "summary": "DEMO ONLY. Simulated morning job run; no accounts were contacted.",
+      "counts": {
+        "discovered": 2,
+        "duplicates": 3,
+        "submitted": 2,
+        "needsReview": 0,
+        "failed": 0
+      },
+      "events": [
+        {
+          "id": "run3-1",
+          "at": "2026-09-29T08:00:00+05:30",
+          "type": "start",
+          "note": "DEMO: encrypted ledger loaded; fresh listings checked."
+        },
+        {
+          "id": "run3-2",
+          "at": "2026-09-29T08:07:00+05:30",
+          "type": "dedupe",
+          "note": "DEMO: 3 repeated identities excluded."
+        },
+        {
+          "id": "run3-3",
+          "at": "2026-09-29T08:16:00+05:30",
+          "type": "checkpoint",
+          "note": "DEMO: results reconciled and encrypted vault prepared."
+        }
+      ]
+    },
+    {
+      "id": "demo-run-5",
+      "kind": "jobs",
+      "status": "completed",
+      "startedAt": "2026-09-28T08:00:00+05:30",
+      "finishedAt": "2026-09-28T08:16:00+05:30",
+      "summary": "DEMO ONLY. Simulated morning job run; no accounts were contacted.",
+      "counts": {
+        "discovered": 2,
+        "duplicates": 4,
+        "submitted": 1,
+        "needsReview": 0,
+        "failed": 0
+      },
+      "events": [
+        {
+          "id": "run4-1",
+          "at": "2026-09-28T08:00:00+05:30",
+          "type": "start",
+          "note": "DEMO: encrypted ledger loaded; fresh listings checked."
+        },
+        {
+          "id": "run4-2",
+          "at": "2026-09-28T08:07:00+05:30",
+          "type": "dedupe",
+          "note": "DEMO: 4 repeated identities excluded."
+        },
+        {
+          "id": "run4-3",
+          "at": "2026-09-28T08:16:00+05:30",
+          "type": "checkpoint",
+          "note": "DEMO: results reconciled and encrypted vault prepared."
+        }
+      ]
+    },
+    {
+      "id": "demo-run-6",
+      "kind": "jobs",
+      "status": "completed",
+      "startedAt": "2026-09-27T08:00:00+05:30",
+      "finishedAt": "2026-09-27T08:16:00+05:30",
+      "summary": "DEMO ONLY. Simulated morning job run; no accounts were contacted.",
+      "counts": {
+        "discovered": 2,
+        "duplicates": 6,
+        "submitted": 1,
+        "needsReview": 0,
+        "failed": 1
+      },
+      "events": [
+        {
+          "id": "run5-1",
+          "at": "2026-09-27T08:00:00+05:30",
+          "type": "start",
+          "note": "DEMO: encrypted ledger loaded; fresh listings checked."
+        },
+        {
+          "id": "run5-2",
+          "at": "2026-09-27T08:07:00+05:30",
+          "type": "dedupe",
+          "note": "DEMO: 6 repeated identities excluded."
+        },
+        {
+          "id": "run5-3",
+          "at": "2026-09-27T08:16:00+05:30",
+          "type": "checkpoint",
+          "note": "DEMO: results reconciled and encrypted vault prepared."
+        }
+      ]
+    }
+  ],
+  "decisions": []
+}

@@ -5,3 +5,8 @@ node_modules/
 *.key
 .private/
 test-results/
+__pycache__/
+*.pyc
+*.pdf
+*.tex
+*.tar.gz

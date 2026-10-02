@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "properties": {
+    "baseRevision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "requestId": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "queued",
+        "working",
+        "needs_input",
+        "ready"
+      ]
+    },
+    "result": {
+      "enum": [
+        "none",
+        "cv_prepared",
+        "role_skipped",
+        "role_reconsidered",
+        "input_required",
+        "stale_request",
+        "legacy_review"
+      ]
+    },
+    "privateNote": {
+      "type": "string",
+      "maxLength": 10000
+    },
+    "reconciled": {
+      "type": "boolean"
+    },
+    "resultResumeId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "baseRevision",
+    "requestId",
+    "status",
+    "result",
+    "privateNote"
+  ],
+  "additionalProperties": false
+}

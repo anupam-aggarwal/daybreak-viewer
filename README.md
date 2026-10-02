@@ -1,17 +1,11 @@
 # Daybreak
 
-Source-only frontend for an authenticated private CV-preparation workspace.
+Public source for an owner-authenticated CV-preparation workspace. The published site is in `docs/`; personal records, original documents, prepared PDFs, requests and replies live in the private Supabase project. The Python worker and CV tools in `tools/` run in a private cloud workspace using this repository. Normal operation needs no private Git checkout or old vault passphrase.
 
-The published site contains application code, styles and the pinned locally bundled Supabase SDK. Personal records and original/prepared files live in private owner-scoped database tables and a private Storage bucket. No personal vault, document bytes, server credentials or private repository history belongs here.
+Read [guide/CLOUD_WORKFLOW.md](guide/CLOUD_WORKFLOW.md) for installation, source recovery, CV preparation, explicit claim/checkpoint/reply steps, and the verified private recovery copy. Never put personal documents or server credentials in this repository. The worker is single-publisher and CV-only; there is no scheduled processing or employer submission.
 
-Email/password sign-in uses the existing enrolled account. GitHub sign-in remains available for recovery while the owner verifies password setup and recovery. There is no signup, automatic employer application or scheduled processing. A submitted CV request is saved for an authorized private worker; it is not a promise of immediate processing.
+Email/password uses the existing owner account. GitHub login remains temporary recovery. The browser keeps tokens and drafts in memory; RLS and private Storage protect personal data. The public project URL and publishable key in the browser are not server credentials.
 
-Passwords go directly to the configured authentication service. Session tokens and drafts stay in memory; only a short-lived PKCE verifier survives an auth redirect in tab storage. Refresh requires sign-in. Public project URL and publishable key are not server secrets. RLS and private Storage policies enforce access.
+For UI changes run `npm ci`, `npm test`, `npm run check`, and the synthetic browser check described in the cloud guide. `npm run build:auth` rebuilds the pinned local Auth SDK bundle. The Pages workflow publishes only `docs/` on a normal push to `main`.
 
-## Development
-
-Use Node 24, run `npm ci`, `npm test`, and `npm run check`. `npm run build:auth` rebuilds the locally pinned Auth SDK bundle. Serve `docs/` with a local static server. Public tests use synthetic data only. Full browser and private worker tests are maintained with the private operator implementation.
-
-The `docs/index.html` entry loads `hosted-app.js`, `hosted-auth.js` and `hosted-store.js`. Source publication uses the Pages workflow. Never put environment secrets in browser code or commit private data.
-
-The current public ciphertext files were removed at hosted cutover. Previously published encrypted versions remain in Git history; this release does not claim to revoke historical downloads.
+Current-branch `docs/vault.enc.json` and `docs/artifacts/*.enc` were removed at hosted cutover. Earlier encrypted versions remain in Git history and may already have been downloaded. This source cleanup cannot revoke those historical ciphertexts.
