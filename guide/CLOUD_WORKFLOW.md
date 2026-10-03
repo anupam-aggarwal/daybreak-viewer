@@ -6,7 +6,10 @@ The current canonical state is the owner-scoped `daybreak_workspaces` pointer an
 
 Clone only `https://github.com/anupam-aggarwal/daybreak-viewer.git` at normal `main`. Use Python 3.12+, Node 24+, `pdflatex`, `pdfinfo`, `pdftotext`, `pdftoppm` and the original template's NewTX/TeX Gyre fonts and LaTeX packages: geometry, enumitem, titlesec, hyperref, xcolor, parskip, microtype, newtxtext, newtxmath. Build trusted reviewed source with `pdflatex -no-shell-escape`. `tools/prepare_cv.py` is a ReportLab fallback and changes the owner's selected design.
 
-Install script from the repository root:
+In the saved Daybreak cloud workspace, the existing Python environment is at
+`/workspace/daybreak-env`. Use `/workspace/daybreak-env/bin/python` in place of
+`.venv/bin/python` throughout this guide. For a new checkout, install from the
+repository root:
 
 ```sh
 python3 -m venv .venv
